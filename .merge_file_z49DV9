@@ -54,7 +54,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 84,
+   "execution_count": 7,
    "metadata": {},
    "outputs": [
     {
@@ -101,7 +101,7 @@
        "  </thead>\n",
        "  <tbody>\n",
        "    <tr>\n",
-       "      <td>0</td>\n",
+       "      <th>0</th>\n",
        "      <td>ILO:DF_SDG_ALL_SDG_B871_SEX_AGE_RT(1.0)</td>\n",
        "      <td>SDG</td>\n",
        "      <td>BEN</td>\n",
@@ -123,7 +123,7 @@
        "      <td>SDG_B871_SEX_AGE_RT</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <td>1</td>\n",
+       "      <th>1</th>\n",
        "      <td>ILO:DF_SDG_ALL_SDG_B871_SEX_AGE_RT(1.0)</td>\n",
        "      <td>SDG</td>\n",
        "      <td>BEN</td>\n",
@@ -145,7 +145,7 @@
        "      <td>SDG_B871_SEX_AGE_RT</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <td>2</td>\n",
+       "      <th>2</th>\n",
        "      <td>ILO:DF_SDG_ALL_SDG_B871_SEX_AGE_RT(1.0)</td>\n",
        "      <td>SDG</td>\n",
        "      <td>BEN</td>\n",
@@ -167,7 +167,7 @@
        "      <td>SDG_B871_SEX_AGE_RT</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <td>3</td>\n",
+       "      <th>3</th>\n",
        "      <td>ILO:DF_SDG_ALL_SDG_B871_SEX_AGE_RT(1.0)</td>\n",
        "      <td>SDG</td>\n",
        "      <td>TCD</td>\n",
@@ -189,7 +189,7 @@
        "      <td>SDG_B871_SEX_AGE_RT</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <td>4</td>\n",
+       "      <th>4</th>\n",
        "      <td>ILO:DF_SDG_ALL_SDG_B871_SEX_AGE_RT(1.0)</td>\n",
        "      <td>SDG</td>\n",
        "      <td>TCD</td>\n",
@@ -244,7 +244,7 @@
        "4         1     XX  SDG_B871_SEX_AGE_RT  "
       ]
      },
-     "execution_count": 84,
+     "execution_count": 7,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -276,7 +276,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 85,
+   "execution_count": 16,
    "metadata": {},
    "outputs": [
     {
@@ -285,7 +285,7 @@
        "72"
       ]
      },
-     "execution_count": 85,
+     "execution_count": 16,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -296,16 +296,61 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 24,
    "metadata": {},
    "outputs": [],
    "source": [
-    "<<<<<<< local\n",
-    "ref_areas = list(ilo_data['REF_AREA'].unique())\n",
-    "=======\n",
-    "ref_areas = ilo_data['REF_AREA'].unique()\n",
-    ">>>>>>> remote"
+    "ref_areas = ilo_data['REF_AREA'].unique()"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   },
   {
    "cell_type": "code",
@@ -338,7 +383,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 26,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -349,7 +394,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 27,
    "metadata": {},
    "outputs": [
     {
@@ -359,7 +404,7 @@
      "traceback": [
       "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
       "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
-      "\u001b[0;32m<ipython-input-6-9b4b699ddcc0>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0;32mfor\u001b[0m \u001b[0mchild\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mroot\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mStructures\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      2\u001b[0m     \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mchild\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mtag\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mchild\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mattrib\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m<ipython-input-27-9b4b699ddcc0>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0;32mfor\u001b[0m \u001b[0mchild\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mroot\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mStructures\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      2\u001b[0m     \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mchild\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mtag\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mchild\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mattrib\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
       "\u001b[0;31mAttributeError\u001b[0m: 'xml.etree.ElementTree.Element' object has no attribute 'Structures'"
      ]
     }
@@ -371,7 +416,27 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 34,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "xml.etree.ElementTree.Element"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(root)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -380,19 +445,12 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 39,
    "metadata": {},
    "outputs": [],
    "source": [
-    "areas_json = bf.data(root)"
+    "thing = bf.data(root)"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
   },
   {
    "cell_type": "code",
@@ -617,35 +675,6 @@
    ],
    "source": [
     "blah"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 89,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "result = [x for x in ref_areas if x in blah]"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 91,
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "72"
-      ]
-     },
-     "execution_count": 91,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "len(result)"
    ]
   },
   {
