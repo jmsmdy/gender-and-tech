@@ -6,6 +6,7 @@ from functions import *
 import pandas as pd
 import numpy as np
 import math
+import matplotlib.pyplot as plt
 
 # functions for intserting to UN data tables
 
