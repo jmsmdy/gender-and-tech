@@ -1,5 +1,6 @@
 from statsmodels.formula.api import ols
 import statsmodels.api as sm
+import scipy.stats as stats
 import config
 import mysql
 import mysql.connector
