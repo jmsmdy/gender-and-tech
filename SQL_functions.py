@@ -79,6 +79,7 @@ def insert_data_special(table_name, csv_name):
 # functions for intserting to Honeypot data table
 
 def insert_more_query(table_name):
+    """ calls SQL query to insert values into pre-existing table for larger Honeypot data"""
     insert_query = f'''INSERT IGNORE INTO {table_name} (
         country,
         total_workforce_millions,
@@ -110,6 +111,8 @@ def insert_more_query(table_name):
     return insert_query
 
 def get_more_tuples(df):
+    """takes a dataframe and returns a list of tuples of each row with relevant columns for larger 
+    Honeypot data"""
     tuple_list = []
     for index, row in df.iterrows():
         tup = (row[1],

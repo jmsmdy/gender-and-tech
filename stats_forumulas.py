@@ -33,6 +33,7 @@ def get_attributes_query(attribute_1, attribute_table_1, attribute_2,
 
 # Modeling functions
 def anova_table_and_summary(df, dep_var, ind_var):
-    anova_test = ols(f'{dep_var}~C({ind_var})',data=df).fit() 
-#     print(anova_test.summary())
-    return sm.stats.anova_lm(anova_test, typ=2)
+    ''' returns an ordinary least squares test for the dataframe and specified variables '''
+    anova_test = ols(f'{dep_var}~C({ind_var})',data=df).fit()
+    return anova_test
+
