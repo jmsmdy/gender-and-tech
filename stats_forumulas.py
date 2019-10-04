@@ -1,6 +1,5 @@
 from statsmodels.formula.api import ols
 import statsmodels.api as sm
-import scipy.stats as stats
 import config
 import mysql
 import mysql.connector
@@ -35,6 +34,5 @@ def get_attributes_query(attribute_1, attribute_table_1, attribute_2,
 # Modeling functions
 def anova_table_and_summary(df, dep_var, ind_var):
     anova_test = ols(f'{dep_var}~C({ind_var})',data=df).fit() 
-    print(anova_test.summary())
-    anova_table = sm.stats.anova_lm(anova_test, typ=2)
-#     print(pd.DataFrame(anova_table))
+#     print(anova_test.summary())
+    return sm.stats.anova_lm(anova_test, typ=2)
